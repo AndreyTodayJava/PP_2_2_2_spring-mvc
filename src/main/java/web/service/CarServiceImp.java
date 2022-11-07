@@ -4,7 +4,7 @@ import web.models.Car;
 
 import java.util.List;
 
-public interface Service {
+public interface CarServiceImp {
     List<Car> getCars(int size);
     void save(Car car);
 }
